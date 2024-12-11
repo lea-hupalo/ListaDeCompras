@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#itemInput, #priceInput, #quantityInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 100px;
+}
+
+#addButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+li button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li .edit {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+li .edit:hover {
+  background-color: #e0a800;
+}
+
+li .delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+li .delete:hover {
+  background-color: #c82333;
+}
+
+.total-container {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
